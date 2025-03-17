@@ -57,6 +57,65 @@
 }
 /*-------------------------------------------------------------------------------------------*/
 /*------------------------------------------- Header -------------------------------------------*/
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+}
+
+.header-title {
+  position: absolute;
+  top: 50px;
+  left: 165px;
+  width: 94px;
+  height: 24px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #8643DC;
+}
+
+.rectangle {
+  position: absolute;
+  top: 94px; 
+  left: 165px;
+  width: 50px;
+  height: 2px;
+  background: #8643DC;
+}
+
+.contact-text {
+  position: absolute;
+  top: 95px; 
+  left: 165px;
+  width: 512px;
+  height: 156px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 52px;
+  letter-spacing: 0%;
+  color: #21232D;
+}
+
+
+.email {
+  position: absolute;
+  top: 104px;
+  left: 1052px;
+  width: 223px;
+  height: 28px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: lowercase;
+  text-decoration: underline solid;
+  color: #8643DC;
+}
 
 /*-------------------------------------------------------------------------------------------*/
 /*------------------------------------------- Contact Form -------------------------------------------*/
